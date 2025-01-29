@@ -7,6 +7,7 @@ import UseReducerApp from "./Hooks/useReducer/UseReducerApp";
 import UseRefApp from "./Hooks/useRef/UseRefApp";
 import UseMemoApp from "./Hooks/useMemo/UseMemoApp";
 import UseCallbackApp from "./Hooks/useCallback/UseCallbackApp";
+import CustomHookApp from "./Hooks/customHooks/CustomHookApp";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +20,8 @@ function App() {
       {/* <UseReducerApp /> */}
       {/* <UseRefApp /> */}
       {/* <UseMemoApp /> */}
-      <UseCallbackApp />
+      {/* <UseCallbackApp /> */}
+      <CustomHookApp />
     </>
   );
 }
