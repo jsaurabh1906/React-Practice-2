@@ -1,6 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import { topDivStyles } from "../tailwindStyles";
+import { topDivStyles } from "../../tailwindStyles";
 
 const Unsplash = () => {
   const data = useLoaderData();
