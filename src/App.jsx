@@ -8,6 +8,7 @@ import UseMemoApp from "./Hooks/useMemo/UseMemoApp";
 import UseCallbackApp from "./Hooks/useCallback/UseCallbackApp";
 import CustomHookApp from "./Hooks/customHooks/CustomHookApp";
 import ReactRouterApp from "./React-Router6/ReactRouterApp";
+import ForwardRefApp from "./Hooks/forwardRefs/ForwardRefApp";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <UseMemoApp /> */}
       {/* <UseCallbackApp /> */}
       {/* <CustomHookApp /> */}
-      <ReactRouterApp />
+      {/* <ReactRouterApp /> */}
+      <ForwardRefApp />
     </>
   );
 }
