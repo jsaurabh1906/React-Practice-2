@@ -9,6 +9,7 @@ import UseCallbackApp from "./Hooks/useCallback/UseCallbackApp";
 import CustomHookApp from "./Hooks/customHooks/CustomHookApp";
 import ReactRouterApp from "./React-Router6/ReactRouterApp";
 import ForwardRefApp from "./Hooks/forwardRefs/ForwardRefApp";
+import UseImperativeHandleApp from "./Hooks/useImperativeHandle/UseImperativeHandleApp";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <UseCallbackApp /> */}
       {/* <CustomHookApp /> */}
       {/* <ReactRouterApp /> */}
-      <ForwardRefApp />
+      {/* <ForwardRefApp /> */}
+      <UseImperativeHandleApp />
     </>
   );
 }
